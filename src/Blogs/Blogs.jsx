@@ -13,7 +13,6 @@ const Blogs = ({handleAddToBookmark, handleAddTime}) => {
     return (
         
         <div className="md:w-2/3">
-            <h2 className="text-xl font-semibold">Blogs: {blogs.length}</h2>
             {
                 blogs.map(blog => <Blog 
                     key={blog.id} 
